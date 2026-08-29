@@ -1,3 +1,4 @@
+import NickIcon from "./assets/NickIcon.jpg";
 import { Search, Mail } from "lucide-react";
 import { VscVscode } from "react-icons/vsc";
 import {
@@ -135,7 +136,7 @@ function App() {
           <h3 className="text-lg">Desenvolvedor Web | Fullstack em formação</h3>
           <div className="flex flex-row items-start gap-8">
             <img
-              src="../assets/NickIcon.jpg"
+              src={NickIcon}
               alt="icon"
               className="w-40 xl:w-50 h-40 xl:h-50 shrink-0 rounded-full border-2 border-purple-500"
             />
