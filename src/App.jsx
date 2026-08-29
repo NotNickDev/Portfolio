@@ -134,7 +134,7 @@ function App() {
           <h1 className="text-3xl">PERFIL DEV</h1>
           <h2 className="text-purple-500 text-2xl">Gabriel "NickDev"</h2>
           <h3 className="text-lg">Desenvolvedor Web | Fullstack em formação</h3>
-          <div className="flex flex-row items-start gap-8">
+          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-8">
             <img
               src={NickIcon}
               alt="icon"
